@@ -1,0 +1,40 @@
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sort-diameter {
+  display: inline-block;
+  position: relative;
+  color: rgb(255, 234, 0);
+  cursor: pointer;
+  
+}
+
+.sort-diameter:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(255, 234, 0);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.sort-diameter:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+
+.planet-list {
+  font-size: 26px;
+  color: rgb(255, 234, 0);
+}
+
+

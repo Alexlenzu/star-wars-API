@@ -1,0 +1,16 @@
+.footer-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 64px;
+    
+} 
+
+.footer-text {
+    color: white;
+}

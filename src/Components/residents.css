@@ -1,0 +1,11 @@
+.resident-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.residents-title {
+    margin-top: 70px;
+    color: rgb(255, 234, 0);
+}
